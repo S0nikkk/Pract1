@@ -5,6 +5,7 @@ Phone::Phone(int id, const string& lastName, const string& firstName, const stri
              int accountNumber, double cityCallTime, double nocityCallTime)
     : id(id), lastName(lastName), firstName(firstName), pobat(pobat), accountNumber(accountNumber),
       cityCallTime(cityCallTime), nocityCallTime(nocityCallTime) {}
+Phone::~Phone() {}
 
 void Phone::setId(int id) { this->id = id; }
 void Phone::setSurname(const string& lastName) { this->lastName = lastName; }

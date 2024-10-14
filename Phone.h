@@ -16,6 +16,7 @@ private:
 public:
     Phone(int id, const string& lastName, const string& firstName, const string& pobat,
           int accountNumber, double cityCallTime, double nocityCallTime);
+    ~Phone();
 
     void setId(int id);
     void setSurname(const std::string& lastName);
